@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AMVACChemical.Entities\AMVACChemical.Entities.csproj" />
+    <ProjectReference Include="..\AMVACChemical.ViewModels\AMVACChemical.ViewModels.csproj" />
+  </ItemGroup>
+
+</Project>

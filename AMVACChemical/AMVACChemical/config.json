@@ -1,0 +1,14 @@
+﻿{
+  // Local database db connection string
+  "ConnectionStrings": {
+    "LocalContextConnection": "Server=DESKTOP-1ISBBVM\\SQLEXPRESS;Database=AMVAC;User ID=sa; Password=Khushboo",
+    "IdentityContextConnection": "Server=DESKTOP-1ISBBVM\\SQLEXPRESS;Database=AMVACIdentity;User ID=sa; Password=Khushboo"
+  },
+
+  // setup for Trackabout api's credentials
+  "TrackAboutApi": {
+    "Username": "amvacwebservice",
+    "Password": "7uehzMF0R7bV",
+    "ApiKey": "a1bbc04f-39d2-4247-b097-5cc1f849fa0b"
+  }
+}

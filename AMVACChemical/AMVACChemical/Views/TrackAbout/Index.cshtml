@@ -1,0 +1,48 @@
+﻿@model AMVACChemical.ViewModels.TrackAbout.Identity.StudentRegistrationVM
+
+<script src="~/js/test.add.min.js"></script>
+<h2>Registration Page</h2>
+<input type="hidden" id="hdnURL" value="~/" />
+@*<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>*@
+<form method="post" asp-controller="Auth" asp-action="CreateAccount">
+    <div>
+        <div>
+            <label>Firstname</label>
+            @*<input asp-for="FirstName" name="FirstName" />*@
+            <input type="text" name="name" value="" id="txtFirstname" onblur="Validate(this)" />
+            <span class="text-danger errormsgForCharacter" id="errormsgForCharacter"></span>
+        </div>
+        <div>
+            <label>Lastname</label>
+            @*<input asp-for="Lastname" name="Lastname" />*@
+            <input type="text" name="name" value="" id="txtLastname" onblur="Validate(this)" />
+            <span class="text-danger errormsgForCharacter" id="errormsgForCharacter"></span>
+        </div>
+        <div>
+            <label>Email</label>
+            @*<input asp-for="Email" name="Email" />*@
+            <input type="text" name="name" value="" id="txtEmail" onblur="Validate(this)" />
+            <span class="text-danger errormsgForCharacter" id="errormsgForCharacter"></span>
+        </div>
+        <div>
+            <label>Password</label>
+            @*<input asp-for="Password" name="Password" />*@
+            <input type="text" name="name" value="" id="txtPassword" onblur="Validate(this)" />
+            <span class="text-danger errormsgForCharacter" id="errormsgForCharacter"></span>
+        </div>
+        <div>
+            <label>Confirm Password</label>
+            @*<input asp-for="ConfirmPassword" name="ConfirmPassword" />*@
+            <input type="text" name="name" value="" id="txtConfirmPassword" onblur="Validate(this)" />
+            <span class="text-danger errormsgForCharacter" id="errormsgForCharacter"></span>
+        </div>
+
+        <div>
+            <button class="btn sign-btn" type="button" id="btnCreateAccount"> Create Account </button>
+        </div>
+    </div>
+</form>
+
+@Html.ActionLink("TrackAboujht", // <-- Link text
+    "Login" // <-- Action Method Name
+                 );

@@ -1,0 +1,21 @@
+﻿@model AMVACChemical.ViewModels.TrackAbout.Identity.LoginViewModel
+<script src="~/js/test.add.min.js"></script>
+<h2>Login Page</h2>
+<form method="post" asp-controller="Auth" asp-action="CreateAccount">
+    <div>
+        <div>
+            <label>Email</label>
+            <input type="text" name="name" value="" id="txtLoginEmail" onblur="Validate(this)" />
+            <span class="text-danger errormsgForCharacter" id="errormsgForCharacter"></span>
+        </div>
+        <div>
+            <label>Password</label>
+            <input type="text" name="name" value="" id="txtLoginPassword" onblur="Validate(this)" />
+            <span class="text-danger errormsgForCharacter" id="errormsgForCharacter"></span>
+        </div>
+    
+        <div>
+            <button class="btn sign-btn" type="button" id="btnLoginAccount"> Login Account </button>
+        </div>
+    </div>
+</form>

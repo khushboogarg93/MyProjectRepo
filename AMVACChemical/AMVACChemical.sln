@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2042
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AMVACChemical", "AMVACChemical\AMVACChemical.csproj", "{6A5C4DD7-9AB8-4D79-8669-29CDFA055FA9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AMVACChemical.ViewModels", "AMVACChemical.ViewModels\AMVACChemical.ViewModels.csproj", "{8AE91BA9-2F32-40F2-8CB6-B13EDF5E7943}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AMVACChemical.Entities", "AMVACChemical.Entities\AMVACChemical.Entities.csproj", "{87BB5FE2-D4F9-4ADB-9604-1B5718E5A7C7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AMVACChemical.Interfaces", "AMVACChemical.Interfaces\AMVACChemical.Interfaces.csproj", "{A2AC04D6-0369-436C-933C-7117D6075AD9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AMVACChemical.Repositories", "AMVACChemical.Repositories\AMVACChemical.Repositories.csproj", "{6A0CF6F4-FDE7-4EBE-B8CF-B2614ACA56DC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6A5C4DD7-9AB8-4D79-8669-29CDFA055FA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A5C4DD7-9AB8-4D79-8669-29CDFA055FA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A5C4DD7-9AB8-4D79-8669-29CDFA055FA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A5C4DD7-9AB8-4D79-8669-29CDFA055FA9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8AE91BA9-2F32-40F2-8CB6-B13EDF5E7943}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8AE91BA9-2F32-40F2-8CB6-B13EDF5E7943}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8AE91BA9-2F32-40F2-8CB6-B13EDF5E7943}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8AE91BA9-2F32-40F2-8CB6-B13EDF5E7943}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87BB5FE2-D4F9-4ADB-9604-1B5718E5A7C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87BB5FE2-D4F9-4ADB-9604-1B5718E5A7C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87BB5FE2-D4F9-4ADB-9604-1B5718E5A7C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87BB5FE2-D4F9-4ADB-9604-1B5718E5A7C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2AC04D6-0369-436C-933C-7117D6075AD9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2AC04D6-0369-436C-933C-7117D6075AD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2AC04D6-0369-436C-933C-7117D6075AD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2AC04D6-0369-436C-933C-7117D6075AD9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A0CF6F4-FDE7-4EBE-B8CF-B2614ACA56DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A0CF6F4-FDE7-4EBE-B8CF-B2614ACA56DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A0CF6F4-FDE7-4EBE-B8CF-B2614ACA56DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A0CF6F4-FDE7-4EBE-B8CF-B2614ACA56DC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BC383841-3E71-431B-A285-7F441327A316}
+	EndGlobalSection
+EndGlobal

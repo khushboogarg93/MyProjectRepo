@@ -1,0 +1,21 @@
+﻿@model AMVACChemical.Entities.TrackAbout.Identity.UserRoleManagementVM
+
+<table>
+    <thead>
+    <tr>
+        <th>Email</th>
+         <th>Roles</th>
+         <th>Options</th>
+    </tr>
+        </thead>
+    <tbody>
+        @foreach (var user in Model.Users)
+        {
+            <tr>
+                <td>@user.Email</td>
+                @*<td>@user.</td>*@
+                <td><a asp-controller="TrackAbout" asp-action="AddNewRoleToUser"></a>Add Role</td>
+            </tr>
+        }
+    </tbody>
+</table>
